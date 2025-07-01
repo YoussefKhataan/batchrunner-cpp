@@ -1,7 +1,4 @@
 # batchrunner-cpp
-A C++ multithreaded task system with dependency management for parallel computing workloads.
-
-## Overview
 
 TaskSystem is a thread pool-based task execution library that with support for dependency management. It supports bulk task launches where multiple instances of the same task can run concurrently, and provides a mechanism to specify dependencies between different task batches.
 
