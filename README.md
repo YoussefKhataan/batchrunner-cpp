@@ -7,12 +7,11 @@ TaskSystem is a thread pool-based task execution library that with support for d
 
 ## Features
 
-- **Thread Pool Management**: Configurable number of worker threads
-- **Bulk Task Execution**: Launch multiple instances of the same task in parallel
-- **Dependency Management**: Specify dependencies between task batches
-- **Synchronization**: Wait for all tasks to complete with `sync()`
-- **RAII Design**: Automatic cleanup and thread management
-- **Thread-Safe**: All operations are thread-safe using mutexes and condition variables
+- Configurable number of worker threads
+- Launch multiple instances of the same task as a batch in parallel
+- Specify dependencies between task batches
+- Wait for all tasks to complete with `sync()`
+
 
 ## Quick Start
 
